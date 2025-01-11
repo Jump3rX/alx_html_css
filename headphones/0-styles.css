@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", serif;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+
+  position: fixed; /* Keep navbar at the top */
+  top: 0; /* Align to top */
+  width: 100%; /* Full width */
+  padding: 10px 0; /* Add some spacing */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+.logo-container {
+  width: 175px;
+}
+.logo-container img {
+  width: 100%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #ff6565;
+}
+.hero-section {
+  height: 100vh; /* Full viewport height */
+  background: url("./images/headphones_hero_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Center the image */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color */
+  position: relative; /* Position relative for layering if needed */
+  z-index: 0; /* Ensure it's beneath the navbar */
+}
+
+/* Hero Section Content */
+.hero-section h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.bold-p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.long-p {
+  width: 550px;
+}
+
+.hero-section button {
+  background: #ff6565;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  width: 160px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.hero-section button:hover {
+  opacity: 0.9;
+}
