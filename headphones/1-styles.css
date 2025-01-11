@@ -83,3 +83,27 @@ ul li a:hover {
 .hero-section button:hover {
   opacity: 0.9;
 }
+
+.what-we-do-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.what-we-do-text {
+  width: 600px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
